@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class HeroController_1 : MonoBehaviour
 {
+    
+                      
+  
     [SerializeField] private float speed_;                  //"SerializeField" significa que desde el inspector podemos  manipular o ver su valor.
     [SerializeField] private Vector2 movementDirection;     //"SerializeField" significa que desde el inspector podemos  manipular o ver su valor.
     private Rigidbody2D rigidbody2D_;                       //Variable de instanciamiento
 
-                      
+
     void Start()
     {
         rigidbody2D_ = GetComponent<Rigidbody2D>();         //Instanciando la variable.
